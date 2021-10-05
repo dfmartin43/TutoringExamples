@@ -24,5 +24,5 @@ def check_answer(x):
 def get_answer():
   A, b = get_matrices()
   x = calc_x(A,b)
-  print(x)
+  return x
   
