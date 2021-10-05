@@ -1,3 +1,5 @@
+import numpy as np
+
 def connection_check():
   print("Successful. This is version from 05Oct2021.")
 
