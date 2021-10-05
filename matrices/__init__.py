@@ -22,6 +22,7 @@ def check_answer(x):
     print('wrong')
 
 def get_answer():
-  x = calc_x(get_matrices())
+  A, b = get_matrices()
+  x = calc_x(A,b)
   print(x)
   
