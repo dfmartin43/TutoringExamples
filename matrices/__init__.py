@@ -14,4 +14,14 @@ def get_matrices():
 def calc_x(A, b):
   x = np.matmul(np.linalg.inv(A),b)
   return x
+
+def check_answer(x):
+  if x = get_answer()
+    print('correct)
+  else
+    print('wrong')
+
+def get_answer():
+  x = calc_x(get_matrices())
+  print(x)
   
