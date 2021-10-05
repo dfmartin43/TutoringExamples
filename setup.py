@@ -1,6 +1,20 @@
-from distutils.core import setup
+#from distutils.core import setup
+#setup(name='test',
+#      version='1.0',
+#      packages=['matrices'],
+#      intall_requires=['numpy'],
+#      )
+
+from setuptools import setup
+
 setup(name='test',
-      version='1.0',
+      version='0.1',
+      description='The funniest joke in the world',
+      url='http://github.com/dfmartin43/test',
+      #author='Flying Circus',
+      #author_email='flyingcircus@example.com',
+      #license='MIT',
       packages=['matrices'],
-      intall_requires=['numpy'],
+      #zip_safe=False
+      install_requires=['numpy']
       )
