@@ -17,7 +17,7 @@ def calc_x(A, b):
 
 def check_answer(x):
   if x == get_answer():
-    print('correct)
+    print('correct')
   else:
     print('wrong')
 
