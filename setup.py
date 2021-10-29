@@ -1,10 +1,3 @@
-#from distutils.core import setup
-#setup(name='TutoringExamples',
-#      version='1.0',
-#      packages=['matrices'],
-#      intall_requires=['numpy'],
-#      )
-
 from setuptools import setup
 
 setup(name='TutoringExamples',
