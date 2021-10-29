@@ -14,7 +14,7 @@ setup(name='TutoringExamples',
       author='Flying Circus',
       author_email='flyingcircus@example.com',
       license='MIT',
-      packages=['matrices'],
+      packages=['matrices','unknown_functions'],
       zip_safe=False,
       install_requires=['numpy']
       )
