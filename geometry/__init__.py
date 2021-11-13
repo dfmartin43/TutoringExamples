@@ -1,7 +1,7 @@
 import numpy as np
 
 def help():
-  print("This module contains high school geometry functions. Below is a list of functions that can be used: \narea_of_circle: input radius | returns area of circle")
+  print("This module contains high school geometry functions. Below is a list of functions that can be used: \n\narea_of_circle: input radius | returns area of circle")
   print("circ_circle: input radius | returns circumference of circle \narea_of_rect: input length and width | returns area of rectangle \narea_tri: input base and height | returns area of triangle")
   print("hypotenuse: input b and c sides of a triangle | returns the hypotenuse \ncol_rect_prism: input length, width, height | returns volume of prism")
   print("vol_cyl: input radius and height | returns volume of cylinder")
@@ -20,7 +20,7 @@ def area_tri(b,h):
   a = 1/2*b*h
   return a
 
-def hypoteneuse(a,b):
+def hypotenuse(a,b):
   c = np.sqrt(a*a + b*b)
   return c
 
