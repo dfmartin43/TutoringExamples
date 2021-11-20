@@ -5,7 +5,7 @@ setup(name='TutoringExamples',
       description='Tutoring Problems',
       url='http://github.com/dfmartin43/tutor',
       license='MIT',
-      packages=['matrices','unknown_functions','geometry'],
+      packages=['matrices','unknown_functions','geometry','BB_invert'],
       zip_safe=False,
       install_requires=['numpy']
       )
